@@ -1,0 +1,10 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/golden_boots"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data":11}, "model": "item/custom/hazmat_suit_boots"}
+	]
+}

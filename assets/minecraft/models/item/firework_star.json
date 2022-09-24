@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/firework_star"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data":16}, "model": "item/custom/common_rune"},
+		{"predicate": {"custom_model_data":17}, "model": "item/custom/uncommon_rune"},
+		{"predicate": {"custom_model_data":18}, "model": "item/custom/rare_rune"},
+		{"predicate": {"custom_model_data":19}, "model": "item/custom/epic_rune"},
+		{"predicate": {"custom_model_data":20}, "model": "item/custom/legendary_rune"}
+	]
+}

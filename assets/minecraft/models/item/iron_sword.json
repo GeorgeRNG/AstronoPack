@@ -1,0 +1,10 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/iron_sword"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data":23}, "model": "item/custom/ghost_sword"}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/tripwire_hook"
+	},
+
+	"overrides": [
+		{"predicate": {"custom_model_data": 6}, "model": "item/custom/earth_key"},
+		{"predicate": {"custom_model_data": 7}, "model": "item/custom/mars_key"},
+		{"predicate": {"custom_model_data": 8}, "model": "item/custom/jupiter_key"},
+		{"predicate": {"custom_model_data": 9}, "model": "item/custom/moon_key"}
+	]
+}
