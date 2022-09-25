@@ -7,6 +7,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    # copy-paste this part for however many packs you want to build
+    - name: Build Pack
+      uses: Sorrowfall/Resource-Packager@main
+      with:
+        parts: # A list of directories to create the Resource Pack with
+          assets
+          # Directories take priority as they go down the list, replacing any files from the above directories
+        name: AstronoPack # The name of the Resource Pack
+        output-directory: build # What directory to save the Resource Pack in
+        optimize-jsons: true # Whether or not to optimize JSON file
+      # copy-paste down to here
     - uses: actions/checkout@v1
     - name: Publish Release
       uses: marvinpinto/action-automatic-releases@latest
@@ -16,3 +27,4 @@ jobs:
         prerelease: false
         files: |
           LICENSE
+          build/AstronoPack.zip
