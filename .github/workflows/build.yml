@@ -11,9 +11,9 @@ jobs:
       uses: Sorrowfall/Resource-Packager@main
       with:
         parts: # A list of directories to create the Resource Pack with
-          assets/
-          pack.mcmeta
-          pack.png
+          ./assets/
+          ./pack.mcmeta
+          ./pack.png
           # Directories take priority as they go down the list, replacing any files from the above directories
         name: AstronoPack # The name of the Resource Pack
         output-directory: build # What directory to save the Resource Pack in
